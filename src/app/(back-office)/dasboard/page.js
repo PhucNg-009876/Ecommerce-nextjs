@@ -1,3 +1,4 @@
+import DashboardChart from "@/components/backoffice/DashboardChart";
 import Heading from "@/components/backoffice/Heading";
 import LargeCards from "@/components/backoffice/LargeCards";
 import SmallCards from "@/components/backoffice/SmallCards";
@@ -12,6 +13,7 @@ export default function Dasboard() {
       {/** Small cards */}
       <SmallCards />
       {/** Charts */}
+      <DashboardChart />
       {/** Recent Orders */}
     </div>
   );
